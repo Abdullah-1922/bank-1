@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The BAAPER BANK</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center mb-8 p-5 font-medium">
+        Welcome to
+        <span class="font-bold text-violet-500 p-3"> Baap Er Bank</span>
+      </h1>
+    </header>
+    <main
+      class="bg-blue-200 w-9/12 rounded-[20px] text-center mx-auto h-[35vh]"
+    >
+      <h3 class="text-3xl font-medium p-5 mb-6">Please Login</h3>
+      <div class="flex flex-col p-5 gap-5 items-center mx-auto">
+        <input
+          type="email"
+          F
+          id="user_email"
+          placeholder="Your email address"
+          class="px-4 w-9/12 h-10 rounded-[20px]"
+        />
+
+        <input
+          type="password"
+          id="user_password"
+          placeholder="Password"
+          class="px-4 w-9/12 h-10 rounded-[20px]"
+        />
+
+        <button
+          id="btn_submit"
+          class="bg-amber-400 font-bold px-10 py-3 rounded-3xl hover:bg-teal-600 hover:text-lg hover:py-[10px]"
+        >
+          Submit
+        </button>
+      </div>
+    </main>
+    <script src="js/login.js">
+      // ts.nochack
+    </script>
+  </body>
+</html>
